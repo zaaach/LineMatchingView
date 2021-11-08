@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineMatchingView">
+        <attr name="lmv_horizontal_padding" format="dimension|reference"/>
+        <attr name="lmv_vertical_padding" format="dimension|reference"/>
+        <attr name="lmv_item_width" format="dimension|reference"/>
+        <attr name="lmv_item_height" format="dimension|reference"/>
+        <attr name="lmv_line_width" format="dimension|reference"/>
+        <attr name="lmv_line_color_normal" format="color|reference"/>
+        <attr name="lmv_line_color_correct" format="color|reference"/>
+        <attr name="lmv_line_color_error" format="color|reference"/>
+    </declare-styleable>
+</resources>

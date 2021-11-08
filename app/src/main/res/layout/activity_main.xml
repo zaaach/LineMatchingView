@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.zaaach.linematchingview.LineMatchingView
+        android:id="@+id/line_matching_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp"
+        app:lmv_item_width="120dp"
+        app:lmv_item_height="60dp"
+        app:lmv_horizontal_padding="80dp"
+        app:lmv_vertical_padding="16dp"
+        app:lmv_line_width="2dp"
+        app:lmv_line_color_normal="@color/line_normal_color"
+        app:lmv_line_color_correct="@color/correct_color"
+        app:lmv_line_color_error="@color/error_color"/>
+
+</LinearLayout>

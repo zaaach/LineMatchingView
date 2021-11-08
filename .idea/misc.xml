@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/drawable/item_bg_checked.xml" value="0.37538461538461537" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/drawable/item_bg_correct.xml" value="0.37538461538461537" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/drawable/item_bg_error.xml" value="0.37538461538461537" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/drawable/item_bg_lined.xml" value="0.37538461538461537" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/drawable/item_bg_normal.xml" value="0.37538461538461537" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/layout/item_image.xml" value="0.3651041666666667" />
+        <entry key="..\:/Yudong/LineMatchingDemo/app/src/main/res/layout/item_text.xml" value="0.3651041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
