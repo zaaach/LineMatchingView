@@ -7,8 +7,9 @@
   <a href="https://android-arsenal.com/api?level=16"><img alt="API" src="https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat"/></a>
   <a href="https://jitpack.io/#zaaach/LineMatchingView"><img alt="jitpack" src="https://jitpack.io/v/zaaach/LineMatchingView.svg"/></a>
   <p align="center"></br>
-<img src="https://github.com/zaaach/imgbed/blob/master/arts/line_matching_view_screen_1.png" width="32%"/>
-<img src="https://github.com/zaaach/imgbed/blob/master/arts/line_matching_view_screen_2.png" width="32%"/>
+<img src="https://github.com/zaaach/imgbed/blob/master/arts/line_matching_view_screen_1.png" width="30%"/>
+<img src="https://github.com/zaaach/imgbed/blob/master/arts/line_matching_view_screen_2.png" width="30%"/>
+<img src="https://github.com/zaaach/imgbed/blob/master/arts/line_matching_view.gif" width="30%"/>
 </p>
 
 
@@ -93,7 +94,7 @@ lineMatchingView.init(new LineMatchingView.LinkableAdapter<ItemInfo>() {
 
 
 | Attributes             | Format               | Description               |
-| :--------------------- | -------------------- | ------------------------- |
+| ---------------------- | -------------------- | ------------------------- |
 | lmv_horizontal_padding | dimension\|reference | 两列间距，默认180px       |
 | lmv_vertical_padding   | dimension\|reference | 垂直方向的间距，默认48px  |
 | lmv_item_width         | dimension\|reference | item宽度，默认300px       |
