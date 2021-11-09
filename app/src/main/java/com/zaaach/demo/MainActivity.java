@@ -7,8 +7,10 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.zaaach.linematchingview.LineMatchingView;
 
@@ -24,6 +26,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         lineMatchingView = findViewById(R.id.line_matching_view);
+        Button btnRetry = findViewById(R.id.btn_retry);
+        btnRetry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (lineMatchingView.isFinished()){
+                    lineMatchingView.restore();
+                }else {
+                    Toast.makeText(MainActivity.this, "连线未完成", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
         List<ItemInfo> left = new ArrayList<>();
         left.add(new ItemInfo(ItemInfo.TEXT, "草莓"));

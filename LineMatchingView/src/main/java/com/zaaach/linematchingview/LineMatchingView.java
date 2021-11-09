@@ -83,9 +83,34 @@ public class LineMatchingView<T> extends ViewGroup {
         return this;
     }
 
+    public void restore(){
+        finished = false;
+        oldLines.addAll(newLines);
+        newLines.clear();
+        invalidate();
+        if (leftItems != null){
+            for (int i = 0; i < leftItems.size(); i++) {
+                leftItems.get(i).lined = false;
+                leftItems.get(i).line = null;
+                notifyItemStateChanged(i, NORMAL, true);
+            }
+        }
+        if (rightItems != null){
+            for (int i = 0; i < rightItems.size(); i++) {
+                rightItems.get(i).lined = false;
+                rightItems.get(i).line = null;
+                notifyItemStateChanged(i, NORMAL, false);
+            }
+        }
+    }
+
+    public boolean isFinished(){
+        return finished;
+    }
+
     public void setItems(@NonNull List<T> left, @NonNull List<T> right){
         if (linkableAdapter == null) {
-            throw new IllegalStateException("LinkableAdapter must not be null, please see method setLinkableAdapter()");
+            throw new IllegalStateException("LinkableAdapter must not be null, please see method init()");
         }
         leftItems = new ArrayList<>();
         rightItems = new ArrayList<>();
